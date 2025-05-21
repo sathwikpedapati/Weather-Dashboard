@@ -44,7 +44,6 @@ let handleinput=(event)=>{
     };
     return<>
     <div className="SearchBox">
-     <h2> Search for City</h2>
      <form onSubmit={handlesubmit}>
      <TextField id="city" label="Search City" variant="outlined" value={city} onChange={handleinput}/>
      <br></br>
