@@ -15,7 +15,7 @@ export default function WeatherApp(){
         setweatherinfo(result);
     }
     return<>
-    <h2>This Platform  designed to forecaast Weather 🌤️</h2>
+    <h2>This Platform  designed to forecast Weather 🌤️</h2>
     <SearchBox updateinfo={updateinfo}/>
        <Displayinfo info={weatherinfo}/>
     </>
